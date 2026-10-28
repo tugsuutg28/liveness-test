@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.keras
+logs/*.jsonl
+datasets/liveness/
+datasets/deepfake/
+.DS_Store
+
+# Collected webcam images and experimental datasets
+datasets/liveness_v2/
+datasets/liveness_custom/
+datasets/deepfake_custom/
+
+# Debug images and generated outputs
+reports/debug/
+*.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python testing cache
+.pytest_cache/
+.coverage
+app_before_crop_test.py

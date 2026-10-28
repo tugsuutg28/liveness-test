@@ -1,0 +1,4 @@
+-r requirements.txt
+# Install a compatible TensorFlow build for your macOS/Python environment first if needed.
+tensorflow>=2.15,<2.19
+scikit-learn>=1.4,<2

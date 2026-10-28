@@ -1,0 +1,10 @@
+streamlit>=1.35,<2
+streamlit-webrtc>=0.47,<1
+opencv-python>=4.8,<5
+mediapipe==0.10.21
+numpy>=1.26,<2
+pandas>=2,<3
+scikit-learn>=1.4,<2
+Pillow>=10,<12
+av>=12,<16
+# Optional training: pip install tensorflow-macos==2.16.2 (Apple Silicon compatibility varies)
